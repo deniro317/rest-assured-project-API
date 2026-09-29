@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ResfulBooker Test Suite">
+    <test name="Smoke Book Tests">
+        <classes>
+            <class name="testCases.BookSmokeTest">
+                <methods>
+                    <include name="smokeTestFullLifeCycle"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
